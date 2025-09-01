@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saeedullah | Portfolio</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+    body {background: #f4f4f9; color: #333;}
+    header {background: #2c3e50; color: #fff; padding: 20px 0; text-align: center;}
+    header h1 {font-size: 2.5rem;}
+    header p {font-size: 1.2rem; color: #ddd;}
+
+    nav {background: #34495e; padding: 10px; text-align: center;}
+    nav a {color: white; text-decoration: none; margin: 0 15px; font-weight: bold;}
+    nav a:hover {color: #f39c12;}
+
+    section {padding: 50px 20px; max-width: 1000px; margin: auto;}
+    h2 {text-align: center; margin-bottom: 20px; font-size: 2rem; color: #2c3e50;}
+
+    .about p {text-align: center; font-size: 1.1rem; line-height: 1.6;}
+
+    .education, .skills, .projects {margin-bottom: 50px;}
+    ul {list-style: none; padding: 0;}
+    li {background: #fff; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);}
+
+    .skills-list {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
+    .skill {background: #f39c12; color: white; padding: 10px 20px; border-radius: 20px; font-weight: bold;}
+
+    .projects-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+    .project {background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+    .project h3 {margin-bottom: 10px; color: #f39c12;}
+
+    .contact form {display: flex; flex-direction: column; gap: 10px; max-width: 500px; margin: auto;}
+    input, textarea {padding: 10px; border: 1px solid #ccc; border-radius: 5px;}
+    button {padding: 10px; background: #f39c12; border: none; color: white; font-weight: bold; cursor: pointer; border-radius: 5px;}
+    button:hover {background: #d35400;}
+
+    footer {background: #2c3e50; color: #fff; text-align: center; padding: 15px; margin-top: 20px;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Saeedullah</h1>
+    <p>BS Software Engineering Student | Web Developer in Progress</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      My name is <b>Saeedullah</b>, I am from KP, Pakistan. I started my education in 2010 
+      from a small primary school in my village and today I am pursuing 
+      <b>BS Software Engineering</b> at the University of Swat. 
+      I am passionate about technology, web development, and software engineering.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <h2>My Education Journey</h2>
+    <ul>
+      <li>🎓 <b>Primary School</b> – Completed Class 5 in 2015</li>
+      <li>🎓 <b>Matric</b> – Govt. Higher Secondary School Baidara (Marks: 742)</li>
+      <li>🎓 <b>FSc</b> – Govt. Higher Secondary School Drushkehle (Marks: 837)</li>
+      <li>💻 <b>Diploma in IT (DIT)</b> – Khyber Computer Academy, Khwazakhela</li>
+      <li>🎓 <b>BS Software Engineering</b> – University of Swat (3rd Semester)</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">C++</div>
+      <div class="skill">Problem Solving</div>
+      <div class="skill">MS Office</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do App</h3>
+        <p>Simple to-do list app with add/remove tasks functionality using JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Basic E-commerce Layout</h3>
+        <p>A demo e-commerce front-end design with product cards and shopping cart layout.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Saeedullah | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
